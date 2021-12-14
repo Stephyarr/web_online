@@ -1,0 +1,10 @@
+# Dentro de GitIgnore armo una lista de objetos a ignorar 
+
+#ignora carpetas
+
+node_modules
+
+#ignora archivos del sistema
+
+package-lock.json
+package.json
