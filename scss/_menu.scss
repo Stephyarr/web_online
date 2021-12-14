@@ -1,0 +1,41 @@
+// MENU
+
+nav{
+    background: blue;
+    height: 1000%;
+    max-width: 1000%;
+    margin-left: auto;
+    margin-top: auto;
+    ul{
+        float: right;
+        margin-right: 20px;
+        li{
+            display: inline-block; /*para que se pongan en fila*/
+            line-height: 80px;
+            margin: 0 5px;
+            a{
+                color: black;
+                font-size: 18px; 
+                border-radius: 3px;
+                text-decoration: none;
+            }
+    
+        }
+
+    }
+}
+
+li a.ctive, li a:hover{
+    background: rgb(184, 121, 39);
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
