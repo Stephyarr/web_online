@@ -33,7 +33,7 @@ nav {
       margin: 0 5px; }
       nav ul li a {
         color: black;
-        font-size: 18px;
+        font-size: 16px;
         padding: 7px 13px;
         border-radius: 3px;
         text-decoration: none; }
@@ -50,7 +50,8 @@ li a.ctive, li a:hover {
   padding: 0 20px;
   margin-right: 40px;
   line-height: 60px;
-  display: none; }
+  display: none;
+  cursor: pointer; }
 
 #check {
   display: none; }
@@ -81,6 +82,14 @@ li a.ctive, li a:hover {
     color: blue; }
   #check:checked ~ ul {
     left: 0; } }
+
+/*RESPONSIVE Desing - es para que se adapte a la TABLET*/
+@media (max-width: 992px) {
+  .enlace {
+    padding-left: 20px; }
+  nav ul li a {
+    font-size: 18px;
+    /*se aplica solo cuando se achica la pagina*/ } }
 
 section.banner {
   background: #eed5d5;
