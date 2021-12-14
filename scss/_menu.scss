@@ -1,11 +1,9 @@
 // MENU
 
 nav{
-    background: blue;
-    height: 1000%;
-    max-width: 1000%;
-    margin-left: auto;
-    margin-top: auto;
+    background: rgb(107, 219, 163);
+    height: 80px;
+    width: 100%;
     ul{
         float: right;
         margin-right: 20px;
@@ -14,8 +12,9 @@ nav{
             line-height: 80px;
             margin: 0 5px;
             a{
-                color: black;
-                font-size: 18px; 
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                padding: 7px 13px; 
                 border-radius: 3px;
                 text-decoration: none;
             }
@@ -30,11 +29,15 @@ li a.ctive, li a:hover{
     transition: 0.5s;
 }
 .checkbtn{
-    font-size: 30px;
     color: white;
-    line-height: 80px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
     margin-right: 40px;
+    line-height: 60px;
     display: none;
+
 }
 #check{
     display: none;
