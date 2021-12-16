@@ -3,8 +3,7 @@
   padding: 0; }
 
 body {
-  background-color: #9fa4c4;
-  background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%); }
+  background: #f9cf93; }
 
 /*animaciones*/
 h1 {
@@ -21,7 +20,7 @@ h1 {
 
 /* menu */
 nav {
-  background: #6bdba3;
+  background: #f9e4c8;
   height: 80px;
   width: 100%; }
   nav ul {
