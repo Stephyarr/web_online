@@ -63,6 +63,16 @@ h1 {
     #check:checked ~ ul{
         left: 0;
     }
+
+    .contenedor{
+        width: 50%;
+        height: 60%;
+    }
+    .sub-productos{
+        width: 10px;
+        height: 50px;
+        
+    } 
 }
 
 /*RESPONSIVE Desing - es para que se adapte a la TABLET*/
@@ -73,6 +83,27 @@ h1 {
     nav ul li a{
         font-size: 18px; /*se aplica solo cuando se achica la pagina*/
     }
+    
+    // .contenedor{
+    //     width: 50%;
+    //     height: 60%;
+    // }
+    .sub-productos{
+        width: 70%;
+        height: 200px;
+        margin: 90px auto; 
+        outline: 3px solid;
+        border-radius: 50px;
+        box-shadow: 0px 6px 10px; //sombreado
+        cursor: pointer;
+    
+    }
+    .sub-productos > img{
+        width: 50%;
+        height: 50%;
+        border-radius: 50px;
+    } 
+
 }
 
 
@@ -134,7 +165,7 @@ section.banner{
     margin: 90px auto; 
     outline: 3px solid;
     border-radius: 50px;
-    box-shadow: 0px 15px 25px;
+    box-shadow: 0px 6px 8px; //sombreado
     cursor: pointer;
 
 } 
